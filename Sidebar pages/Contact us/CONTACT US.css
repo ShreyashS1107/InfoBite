@@ -1,0 +1,34 @@
+h1{color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;}
+
+.box1{text-align: center;
+    border-width: 100px;
+    color:#6ebdd3;
+    }
+.container1{ text-align: center;
+            background-color: aliceblue;
+            border-radius: 10px;
+            width: 400px;
+            text-align: center;
+            margin-top: 15px;
+}
+
+footer{background-color: #4cafad;
+    margin: 20px;
+    text-align: center;
+    padding:20px;}
+
+.container2{ text-align: center;
+                background-color: aliceblue;
+                border-radius: 10px;
+                width: 400px;
+                text-align: center;
+}
+.container1,.container2{margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}

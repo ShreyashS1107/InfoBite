@@ -1,0 +1,85 @@
+
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f7fdf7;
+      color: #333;
+    }
+
+    h1 {
+      background-color:#4cafad;
+      padding: 20px;
+      text-align: center;
+      color: black
+      ; font-family: monospace;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #6ebdd3;
+    }
+
+    .mission, .team, .values,.weare,.services  {
+      margin-bottom: 40px;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      margin-bottom:10px;
+      color:#a2dde9;
+      border-left: 4px solid #a2dde9;
+      padding-left: 10px;
+    }
+        .team-members {
+      display: flex;
+      gap: 20px;
+    }
+         .member {  
+          flex: 1 1 calc(33% - 20px);
+      background: #f1f8e9;
+      padding: 25px;
+      gap: 20px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            color: #000;
+            font-weight: bold;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            border: 2px solid transparent;
+            transform-style: preserve-3d;
+            width: 250px;
+            margin-bottom: 20px;
+    }
+        .member:hover {
+            background: #c2dbe6;
+            border-color: #3ca9e2;
+            transform: translateY(-10px) rotateX(8deg) rotateY(8deg) scale(1.05);
+            box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+        }
+    
+   
+.team-box{
+  font-size: 19px;
+}
+    footer {
+      background-color: #4cafad;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      .member {
+        flex: 1 1 100%;
+      }
+    }
+    a{color: #000;}

@@ -1,0 +1,24 @@
+h1,.a{text-align: center;
+color: white;}
+p{
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{text-align: center;
+      color: #6ebdd3;}
+      p,ul{text-align: center;}
+      .box{background-color: aliceblue;
+          margin-left: auto;
+          margin-right: auto;
+          border-radius: 20px;
+          width: 700px;
+          text-align: center;
+        padding: 5px;
+      margin-bottom: 15px;}
+footer {
+      background-color: #4cafad;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      color: #fff;
+    }

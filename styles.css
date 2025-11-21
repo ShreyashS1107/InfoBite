@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom,
+        #74abdf 0%,
+        #6a8ef2 50%,
+        #6a49f2 100%
+    );
+    color: black;
+    transition: background 0.4s, color 0.4s;
+}
+
+.dark {
+    background: black ;
+    color: white ;
+}
+
+.productb div,
+.productb div img,
+.head,
+header,
+nav a,
+img.logo,
+img.hamburg {
+    transition: none;
+}
+
+.head {
+    height: 110.82px;
+    background-color: rgba(254,250,244);
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.hamburg {
+    height: 65.75px;
+    width: 65.75px;
+    cursor: pointer;
+}
+
+.dark-icon {
+    height: 60px;
+    width: 128px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.logo {
+    height: 101.4px;
+    width: 334.52px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+nav {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.ab { margin-right: 30px; }
+
+
+.ivideo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.ivideo video {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 12px;
+}
+
+
+.quote {
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.quote p {
+    width: 800px;
+    font-size: 65px;
+    font-family: "Pirata One";
+    text-align: center;
+}
+
+.cb {
+    text-align: center;
+    font-size: 75px;
+    font-family: "Rye";
+    color: white;
+}
+.productb {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 135px;
+    column-gap: 290px;
+    width: fit-content;
+    margin: auto;
+    padding: 50px;
+    margin-top: 10px;
+
+    background: linear-gradient(
+        to bottom,
+        #d9e4ff 0%,
+        #b3c6ff 50%,
+        #8da8ff 100%
+    );
+}
+
+.productb div {
+    width: 330px;
+    padding: 25px;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    font-size: 38px;
+    font-family: "Rye";
+}
+
+.productb div img {
+    width: 260px;
+    height: 260px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body.dark .head nav a,
+body.dark .head nav a p {
+    color: black ;
+}
+footer {
+      background-color: #4cafad;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      color: #fff;
+    }
